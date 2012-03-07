@@ -1,0 +1,31 @@
+name: VoxelGuest
+main: com.thevoxelbox.voxelguest.VoxelGuest
+author: VoxelPlugineering
+version: 4.0.0a
+website: http://voxelwiki.com/minecraft/VoxelGuest
+
+commands:
+  afk:
+    aliases: [vafk]
+    usage: /<command>
+  opass:
+    aliases: [offlinepass, offlinepassword]
+    usage: /<command> (password)
+  opardon:
+    aliases: [offlinepardon]
+    usage: /<command> [user]
+  who:
+    aliases: [online, list, readlist]
+    usage: /<command>
+  ban:
+    aliases: [vban, vbano, bano]
+    usage: /<command> [user] [reason]
+  unban:
+    aliases: [vunban]
+    usage: /<command> [user]
+  gag:
+    aliases: [vgag]
+    usage: /<command> [user] [reason]
+  kick:
+    aliases: [vkick]
+    usage: /<command> [user] [reason]
