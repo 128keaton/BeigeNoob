@@ -1,8 +1,9 @@
-name: BeigeNoob
-main: com.keatonburleson.BeigeNoob
-author: VoxelPlugineering/128keaton/RC_C
+name: VoxelGuest
+main: com.thevoxelbox.voxelguest.VoxelGuest
+author: VoxelPlugineering
 version: 4.0.0a
-website: http://www.keatonburleson.com
+website: http://voxelwiki.com/minecraft/VoxelGuest
+
 commands:
   afk:
     aliases: [vafk]
