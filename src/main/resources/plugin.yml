@@ -1,12 +1,12 @@
-name: VoxelGuest
+name: BeigeNoob
 main: com.thevoxelbox.voxelguest.VoxelGuest
-author: VoxelPlugineering
-version: 4.0.0a
-website: http://voxelwiki.com/minecraft/VoxelGuest
+author: VoxelPlugineering and 128keaton
+version: 4.0.1a
+website: http://voxelwiki.com/minecraft/VoxelGuest and http://www.keatonburleson.com
 
 commands:
   afk:
-    aliases: [vafk]
+    aliases: [away]
     usage: /<command>
   opass:
     aliases: [offlinepass, offlinepassword]
@@ -15,17 +15,17 @@ commands:
     aliases: [offlinepardon]
     usage: /<command> [user]
   who:
-    aliases: [online, list, readlist]
+    aliases: [online, list, plrz]
     usage: /<command>
   ban:
-    aliases: [vban, vbano, bano]
+    aliases: [banp, esc, banh]
     usage: /<command> [user] [reason]
   unban:
-    aliases: [vunban]
+    aliases: [unbanp]
     usage: /<command> [user]
   gag:
-    aliases: [vgag]
+    aliases: [gagp]
     usage: /<command> [user] [reason]
   kick:
-    aliases: [vkick]
+    aliases: [kickp]
     usage: /<command> [user] [reason]
