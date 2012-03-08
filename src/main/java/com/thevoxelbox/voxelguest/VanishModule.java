@@ -192,7 +192,7 @@ public class VanishModule extends Module {
         String leaveMessage = "";
         
         if (leaveMessageFormat == null) {
-            leaveMessage = "§e" + p.getName() + " left";
+            leaveMessage = "§e" + p.getName() + " left the game";
         } else { 
             String[] messages = Formatter.selectFormatter(SimpleFormatter.class).format(leaveMessageFormat, VoxelGuest.getGuestPlayer(p));
             leaveMessage = messages[0];
